@@ -1,0 +1,282 @@
+@charset "utf-8";
+
+
+#wrapper {
+	background:#FFF;
+	line-height: 1.5;
+	margin:0 auto;
+	overflow:hidden;
+	max-width: 950px;
+	height:auto;
+}
+
+header{
+	text-align: center;
+	font-size: 120%;
+	color: #FF0000;
+	padding:2% 0;
+
+}
+
+hr {
+	display: none;
+}
+
+
+
+
+.sin{
+	display: table-cell;
+	width: 150px;
+	text-align: center;
+	vertical-align:middle;
+	color:#AD4590;
+	font-weight:bold;
+}
+
+.top_banner{
+	text-align: center;
+	margin-bottom: 40px;
+}
+.anchor_link {
+	width:5rem;
+	position: fixed;
+	bottom: 5rem;
+	right: 1rem;
+}
+
+.anchor_link img{
+	width:100%;
+}
+
+.anchor_link a {
+ display: block;
+ background-color: #333;
+ text-align: center;
+ color: #fff;
+ font-size: 24px;
+ text-decoration: none;
+ line-height: 50px;
+}
+
+.block{
+	display: table;
+}
+.txt{
+	display: table-cell;
+	font-size: 100%;
+	width: 550px;
+	vertical-align: middle;
+	*display:inline;
+	*zoom:1;
+}
+.img_con{
+	display: table-cell;
+	padding-left:2%;
+	*display:inline;
+	*zoom:1;
+}
+
+.top_banner {
+    overflow: hidden;
+    width:468px;
+}
+	
+.top_banner ul {
+    list-style: none;
+    width: 1872px;
+}
+.top_banner ul li {
+    float: left;
+    width: 468px;
+}
+
+.top_banner {
+	width:468px;
+	margin:0 auto;
+}
+
+.header-right{
+	float: right;
+}
+
+.header-right li{
+	float: left;
+	list-style-type: none;
+	margin-left: 10px;
+	padding-right: 5px;
+}
+
+.header{
+	padding-top: 5%;
+}
+
+.news{
+	display:table;
+	width:88%;
+	margin:2% auto;
+	font-size: 120%;
+}
+
+.textbox{
+	display: table-cell;
+	max-width:600px;
+	height:3rem !important;
+	border:solid 1px #A08A6E;
+	border-radius:10px;
+	vertical-align:middle;
+	box-shadow:rgba(100, 107, 117, 0.41) 0px 0px 1px 0px inset;
+	-webkit-box-shadow:rgba(100, 107, 117, 0.41) 0px 0px 1px 0px inset;
+	-moz-box-shadow:rgba(100, 107, 117, 0.41) 0px 0px 1px 0px inset;
+}
+
+.banner{
+	text-align:right;
+}
+
+#main_contents{
+	overflow: hidden;
+	padding-bottom: 5%;
+	overflow: hidden; /*floatの解除、ここがポイント*/
+	position: relative; /*DWで正常にプレビューできるようになります。*/
+	zoom:1; /*IE6でレイアウト崩れを防ぐためのものです。*/
+}
+
+.top_img{
+	padding:4rem 0;
+}
+
+.manner{
+	border-bottom: 0.3rem solid #41B973;	 
+}
+
+.manner h1{
+	color: #41B973;
+	font-size: 2rem;
+	margin-left: 1rem;
+
+}
+
+.text{
+	justify-content: space-between; 
+}
+
+h2 {
+    font-size: 120%;
+    color: #fff;
+    background: #B92A2C;
+    padding: 15px;
+}
+
+.text h2{
+	color: #fff;
+	font-size: 2rem;
+}
+
+.text p{
+	padding: 5%;
+
+}
+
+#season{
+	margin:4rem 0;
+}
+
+#ex{
+	max-width: 100%;
+	margin:0 0 2rem;
+}
+
+.ex_top,
+.ex_botttom{
+	overflow:hidden;
+	width:90%;
+	margin:2rem auto;
+}
+
+.text1{
+	max-width: 44%;
+	float: left;
+	padding-bottom: 5%;
+}
+
+
+.text2{
+	max-width: 44%;	
+	float: right;
+	padding-bottom: 5%;
+}
+
+.text3{
+	max-width: 44%;
+	float: left;
+	padding-bottom: 5%;
+	margin-bottom:3rem;
+}
+
+
+.text4{
+	max-width: 55%;
+	float: right;
+	padding-bottom: 5%;
+}
+
+#ranking{
+	margin:0 0 8rem;
+}
+
+#ranking h2{
+	color: #fff;
+	font-size: 2rem;	
+}
+
+table.type07 {
+	margin: 5%;
+	width: 90%;
+	border-collapse: collapse;
+	text-align: left;
+	line-height: 1.2;
+	border: 1% solid #ccc;
+}
+
+table.type07 thead {
+	border-right: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	background: #04162e;
+}
+table.type07 thead th {
+	width: 10%;
+	padding: 10px;
+	font-weight: bold;
+	vertical-align: top;
+	color: #fff;
+	border-right: 1px solid #ccc;
+}
+
+table.type07 tbody th {
+	padding: 10px;
+	font-weight: bold;
+	vertical-align: top;
+	border-bottom: 1px solid #ccc;
+	background: #efefef;
+	border-right: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+}
+
+table.type07 td {
+	width: 10%;
+	padding: 10px;
+	vertical-align: top;
+	border-bottom: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+	
+footer{
+	text-align: center;
+	width:100%;
+	font-size:70%;
+	background-color: #B92A2C;
+	padding: 20px;
+	color: #fff;
+}
+

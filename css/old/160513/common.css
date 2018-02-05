@@ -1,0 +1,155 @@
+@charset "utf-8";
+hr {
+	display: none;
+}
+
+body{
+	background: url(../images/background.png) repeat;
+}
+
+#wrapper {
+	background:#FFF;
+	line-height: 1.5;
+	margin:0 auto;
+	overflow:hidden;
+	max-width: 950px;
+	height:auto;
+}
+header{
+	text-align: center;
+	font-size: 120%;
+	color: #FF0000;
+	padding:2% 0;
+
+}
+h2{
+	font-size: 120%;
+	color: #fff;
+	background: #B92A2C;
+	padding: 15px;
+}
+h3{
+	font-size: 125%;
+	color: #3E3E3E;
+	margin: 20px 0px;
+	line-height: 1;
+	padding:7px 0 5px 40px;
+	background: url(../images/list.png) no-repeat;
+}
+h4{
+	color: #006600;
+}
+h5{
+	font-size: 160%;
+	color: #006600;
+}
+
+.news{
+	display:table;
+	width:88%;
+	margin:2% auto;
+	font-size: 120%;
+}
+
+.textbox{
+	display: table-cell;
+	width:600px;
+	height:30px;
+	border:solid 1px #A08A6E;
+	border-radius:10px;
+	vertical-align:middle;
+	box-shadow:rgba(100, 107, 117, 0.41) 0px 0px 1px 0px inset;
+	-webkit-box-shadow:rgba(100, 107, 117, 0.41) 0px 0px 1px 0px inset;
+	-moz-box-shadow:rgba(100, 107, 117, 0.41) 0px 0px 1px 0px inset;
+}
+
+.sin{
+	display: table-cell;
+	width: 150px;
+	text-align: center;
+	vertical-align:middle;
+	color:#AD4590;
+	font-weight:bold;
+}
+
+.top_banner{
+	text-align: center;
+	margin-bottom: 40px;
+}
+.anchor_link {
+ display: none;
+ position: fixed;
+ bottom: 30px;
+ right: 30px;
+}
+.anchor_link a {
+ display: block;
+ width: 50px;
+ height: 50px;
+ background-color: #333;
+ text-align: center;
+ color: #fff;
+ font-size: 24px;
+ text-decoration: none;
+ line-height: 50px;
+}
+.contents01,
+.contents02,
+.contents03,
+.contents04,
+.contents05{
+	padding: 40px 10px 40px 20px;
+	border-bottom:1px dotted #62491B;
+}
+
+.contents06{
+	padding: 40px 10px 100px 10px;
+}
+
+.block{
+	display: table;
+}
+.txt{
+	display: table-cell;
+	font-size: 100%;
+	width: 550px;
+	vertical-align: middle;
+	*display:inline;
+	*zoom:1;
+}
+.img_con{
+	display: table-cell;
+	padding-left:2%;
+	*display:inline;
+	*zoom:1;
+}
+footer{
+	text-align: center;
+	width:100%;
+	font-size:70%;
+	background-color: #B92A2C;
+	padding: 20px;
+	color: #fff;
+}
+
+/**豊田光亮**/
+.top_banner {
+    overflow: hidden;
+    width:468px;
+}
+	
+.top_banner ul {
+    list-style: none;
+    width: 1872px;
+}
+.top_banner ul li {
+    float: left;
+    width: 468px;
+}
+
+.top_banner {
+	width:468;
+	margin:0 auto;
+}
+	
+/**豊田光亮**/

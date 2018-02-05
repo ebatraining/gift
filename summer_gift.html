@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="ja" dir="ltr">
+<head>
+<meta charset="utf-8" />
+<title>お取り寄せギフト情報館</title>
+<meta name="keywords" content="お取り寄せ,ギフト,情報,商品,全国,厳選" />
+<meta name="description" content="お取り寄せギフト情報館" />
+<link href="css/base.css" rel="stylesheet" type="text/css">
+<!--<link href="css/common.css" rel="stylesheet" type="text/css">-->
+<link href="css/smart.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/jquery.marquee.js"></script>
+<script src="js/anchor_link.js"></script>
+<script>
+    $(function () {
+    $('p.ticker').marquee();
+    });
+  </script>
+  <script>
+    window.onload = function(){
+    var hiduke=new Date(); 
+    var month = hiduke.getMonth()+1;
+    var day = hiduke.getDate();
+    document.getElementById("news_date").innerHTML = month+"月"+day+"日 ";
+    }
+  </script>
+  <script type="text/javascript">
+$(function(){
+    var imgNum = 3;     //画像の枚数
+    var imgSize = 468;  //画像のサイズ
+    var time = 2000;    //切り替えのタイミング
+    var current = 1;    //現在の画像
+    setInterval(function(){
+        if( current < imgNum ) {
+            current++;
+            $(".top_banner ul").animate({
+                marginLeft : parseInt($(".top_banner ul").css("margin-left"))-imgSize+"px"
+            },"fast");
+        //最後の画像にきたら最初に戻る
+        } else {
+             $(".top_banner ul").animate({
+                marginLeft : parseInt($(".top_banner ul").css("margin-left"))+(imgSize * (imgNum-1))+"px"
+            },"fast");
+            current = 1;
+        }
+    }, time);
+});
+</script>
+</head>
+<body>
+    <div id="wrapper">
+      <header>
+        <div class="header-left">
+          <h1>全国どこでもお取り寄せ可能な商品を集めました。</h1>
+        </div>
+        <div class="header-right">
+          <ul>
+            <li><img src="images/icon_facebook.png" alt="Facebook" /></li>
+            <li><a href="https://twitter.com/intent/tweet?button_hashtag=お取り寄せギフト情報館"><img src="images/icon_twitter.png" alt="twitter" /></a></li>
+            <li><img src="images/icon_google.png" alt="google" /></li>
+          </ul>
+        </div>
+      </header>
+      <hr />
+      <div id="main">
+      	<a href="index.html">
+        	<img src="images/main_image.jpg" width="" height="" alt="お取り寄せギフト情報館">
+		</a>
+      </div>
+        <hr />
+        <div class="banner">
+			<a href="summer_gift.html"><img src="images/banner1.jpg" alt="お中元のマナー"></a>
+			<a href="winter_gift.html"><img src="images/banner2.jpg" alt="お歳暮のマナー"></a>
+        </div>
+        <div class="news">
+            <div class="sin">
+                新着商品情報
+            </div>
+            <div class="textbox">
+              <p class="ticker">
+                <span id="news_date"></span>ヴィンテージワイン専門店 シエル・エ・ヴァンの情報を掲載しました。
+              </p>
+            </div>
+        </div>
+        <div class="top_banner">
+        <ul> 
+			<li><a href="http://px.a8.net/svt/ejp?a8mat=2NI34R+FK8X0Y+2UG2+C6QR5" target="_blank"> <img border="0" width="468" height="60" alt="" src="http://www24.a8.net/svt/bgt?aid=160 407387941&wid=001&eno=01&mid=s00000013277002047000&mc=1"></a>
+			<img border="0" width="1" height="1" src="http://www19.a8.net/0.gif?a8mat=2NI34R+FK8X0Y +2UG2+C6QR5" alt=""></li>
+			<li><a href="http://px.a8.net/svt/ejp?a8mat=2HZ3HX+1YULRM+3E0S+609HT" target="_blank"> <img border="0" width="468" height="60" alt="" src="http://www21.a8.net/svt/bgt?aid=1511 23317119&wid=001&eno=01&mid=s00000015814001009000&mc=1"></a>
+			<img border="0" width="1" height="1" src="http://www10.a8.net/0.gif?a8mat=2HZ3HX+1YULRM +3E0S+609HT" alt=""></li>
+			<li><a href="http://px.a8.net/svt/ejp?a8mat=2HYYSP+2EBVHU+3E3U+5ZEMP" target="_blank">
+			<img border="0" width="468" height="60" alt="" src="http://www29.a8.net/svt/bgt?aid=15111722 5145&wid=001&eno=01&mid=s00000015825001005000&mc=1"></a>
+			<img border="0" width="1" height="1" src="http://www11.a8.net/0.gif?a8mat=2HYYSP+2EBVHU+3E 3U+5ZEMP" alt=""></li>
+		</ul>
+        </div>
+
+		<div id="main_contets">
+			<div class="manner"><h1>お中元のマナー</h1>	
+			</div>
+			<div class="top_img"><img src="images/top.jpg">
+			</div>
+			<section id="season">
+				<div class="text">
+					<h2>お中元はいつ贈るのか？</h2>	
+					<p>
+					お中元は、７月初め～中頃まで( 土用の入り前までに) の期間内に贈ることが
+					一般的です。もし時期を逸した場合には暑中見舞い・残暑見舞いとして贈りま
+					しょう。	
+					</p>
+				</div>
+			</section>
+			<section id="ex">
+				<div class="text">
+					<h2>のし紙の種類と書き方</h2>	
+					<p>
+					お中元の贈り物に掛ける「のし紙」は、紅白の花結びに熨斗が付いたデザイン
+					のものを用います。表書きは濃い色の墨を用いて楷書体で書くのが基本ですが、
+					献辞( 上書き) は水引中央結び目の上に「御中元」と書き、名前書きは水引中
+					央結び目の下に献辞よりやや小さめにしてフルネームを書きます。	
+					</p>
+				</div>
+				<div class="ex_top">
+					<div class="text1">
+						<img src="images/noshi1.jpg">
+						<h3>個人名で贈る場合</h3>
+						<p>姓名のフルネームが一般的ですが、目下の人へ贈る場合は姓だけでも良いです。</p>
+					</div>
+					<div class="text2">
+						<img src="images/noshi2.jpg">
+						<h3>連名で贈る場合</h3>
+						<p>右側が目上、左側が目下の名前を書きます。連名は3名までが一般的です。</p>
+					</div>
+				</div>
+				<div class="ex_botttom">
+					<div class="text3">
+						<img src="images/noshi3.jpg">
+						<h3>代表者名のみ書く場合</h3>
+						<p>代表者名を中央に書き「他一同」を左下に並べて書きます。代表者以外の名前は中包みに記載します。</p>
+					</div>
+					<div class="text4">
+						<img src="images/noshi4.jpg">
+						<h3>会社名を入れる場合</h3>
+						<p>名前の右側に小さく書き添えます。</p>
+					</div>
+				</div>
+			</section>
+
+			<section id="ranking">
+				<h2>贈りたい商品ベスト10</h2>
+				<table class="type07">
+					<thead>
+						<tr>
+							<th scope="cols">贈りたい商品
+							</th>
+							<th scope="cols">全体
+							</th>
+							<th scope="cols">東京
+							</th>
+							<th scope="cols">大阪
+							</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th scope="row">1位
+							</th>
+								<td>ビール(41.1%)
+								</td>
+								<td>ビール(39.0%)
+								</td>
+								<td>ビール(43.2%)
+								</td>
+						</tr>
+						<tr>
+							<th scope="row">2位</th>
+								<td>コーヒー(26.0％)
+								</td>
+								<td>産直の生鮮食料品(31.5％)
+								</td>
+								<td>コーヒー(25.3％)
+								</td>
+						</tr>
+						<tr>
+							<th scope="row">3位</th>
+								<td rowspan="2">そうめん(19.9％)<br>
+								産直の生鮮食料</td>
+								<td>コーヒー(26.7％)
+								</td>
+								<td>そうめん(19.9％)
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">4位
+								</th>
+								<td>そうめん(19.9％)
+								</td>
+								<td>洗剤(15.8％)
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">5位
+								</th>
+								<td>洗剤(13.7％)
+								</td>
+								<td>果物(13.7％)
+								</td>
+								<td>調味料・食用油(13.0％)
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">6位
+								</th>
+								<td>調味料・食用油(13.0％)
+								</td>
+								<td rowspan="3">調味料・食用油(12.3％)<br>
+								ハム・ソーセージ(11.6％)<br>
+								海苔・乾物(12.3％)
+								</td>
+								<td rowspan="3">100％果汁飲料(11.6％)<br>
+								ハム・ソーセージ(11.6％)<br>
+								洋菓子(11.3％)
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">7位
+								</th>
+								<td>ハムソーセージ(12.0％)
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">8位
+								</th>
+								<td>100％果汁飲料(11.0％)
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">9位
+								</th>
+								<td rowspan="2">海苔・乾物(9.9％)<br>
+								和菓子・洋菓子(9.9％)
+								</td>
+								<td>洗剤(11.6％)
+								</td>
+								<td>珍味・佃煮・つけもの(10.3%)
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">10位
+								</th>
+								<td>日本茶・和菓子(11.0％)
+								</td>
+								<td>和菓子(8.9％)
+								</td>
+							</tr>
+					</tbody>
+				</table>
+			</section>
+		</div>
+		<div class="anchor_link"><img src="images/top02.png" alt="top戻る"></div>
+		<footer>
+		<small>Copyright © otoriyose-gift jouhoukan All rights reserved.</small>
+		</footer>
+	</div>
+</body>
+</html>
