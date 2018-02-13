@@ -6,10 +6,10 @@ hr {
 	float: right;
 }
 
-body{	
-	
+body{
+
 	background: url(../images/background.png) repeat;
-	
+
 }
 
 #wrapper {
@@ -146,7 +146,7 @@ footer{
     overflow: hidden;
     width:468px;
 }
-	
+
 .top_banner ul {
     list-style: none;
     width: 1872px;

@@ -1,13 +1,13 @@
 
 html, body, div, h1, h2, h3, h4, h5, h6, 
-p, address, ul, ol, li, dl, header, footer, 
+p, address, ul, ol, li, dl, header, footer,
 nav, section, article, aside, small {
 	margin: 0;
 	padding: 0;
 	font-size: 100%;
 }
-img { 
-	border: 0; 
+img {
+	border: 0;
 
 	}
 body {
